@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="bootstrap/css/style.css">
     <title>Cards in Bootstrap4</title>
     <style>
-        .card , .card-body{
+        .card {
             border-radius: 5px;
 
         }
@@ -84,19 +84,87 @@
 
         <br><br>
 
-        <!-- IMAGE OVERLAYS  card-img , card-img-overlay -->
-        <div>
-            <img  src="img/card_img.jpg" style="width: auto; height: 200px">
-            <div class="">
-                <h4>Card title</h4>
-                <p>This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                <p><small>Last updated 3 mins ago</small></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header bg-primary text-white">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <i class="fa fa-list fa-5x"></i>
+                                </div>
+                                <div class="col">
+                                    <h3 class="display-3">10</h3>
+                                    <h3>Posts</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="text-primary">View Details <i class="fa fa-arrow-alt-circle-right"></i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header bg-success text-white">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <i class="fa fa-sitemap fa-4x"></i>
+                                </div>
+                                <div class="col">
+                                    <h3 class="display-3">10</h3>
+                                    <h3>Posts</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="text-success">View Details <i class="fa fa-arrow-alt-circle-right"></i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header bg-warning text-white">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <i class="fa fa-snowflake fa-5x"></i>
+                                </div>
+                                <div class="col">
+                                    <h3 class="display-3">10</h3>
+                                    <h3>Posts</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="text-warning">View Details <i class="fa fa-arrow-alt-circle-right"></i></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-header bg-danger text-white">
+                            <div class="row align-items-center">
+                                <div class="col">
+                                    <i class="fa fa-users fa-4x"></i>
+                                </div>
+                                <div class="col">
+                                    <h3 class="display-3">10</h3>
+                                    <h3>Posts</h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card-footer">
+                            <h5 class="text-danger">View Details <i class="fa fa-arrow-alt-circle-right"></i></h5>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
         <br><br>
 
-         <!-- CARD DECK -->
+        <!-- Custom Card -->
+
 
 
          <br><br>
@@ -105,7 +173,7 @@
 
 <!-- BODY ENDS -->
 <script src="bootstrap/js/fontawesome-all.js"></script>
-<script src="bootstrap/js/jquery-3.2.1.min.js"></script>
+<script src="bootstrap/js/jquery-3.3.1.min.js"></script>
 <script src="bootstrap/js/popper.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script src="bootstrap/js/mdb.min.js"></script>
