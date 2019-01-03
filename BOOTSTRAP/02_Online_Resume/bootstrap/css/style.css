@@ -39,3 +39,24 @@
     }
 }
 
+.r_card{
+    box-shadow: 0 0 15px black !important;
+    border-radius: 10px !important;
+    transition: all 0.5s;
+}
+.r_card:hover{
+    transform: perspective(400px) rotateY(10deg);
+}
+.r_card .card-header{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.bg-teal{
+    background-color: #0a6a78;
+}
+.text-teal{
+    color: #0a6a78;
+}
+.bg-warning{
+    background-color: orangered !important;
+}
